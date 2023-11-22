@@ -71,6 +71,7 @@ def process_document_sample(
     # Read the text recognition output from the processor
     print("The document contains the following text:")
     print(document.text)
+    print("hello world")
 
 
 
