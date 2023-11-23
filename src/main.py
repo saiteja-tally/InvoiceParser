@@ -6,9 +6,9 @@ from google.cloud import documentai  # type: ignore
 # TODO(developer): Uncomment these variables before running the sample.
 project_id = "tally-ai-394207"
 location = "us" # Format is "us" or "eu"
-processor_id = "e723cbb45d4557ed" # Create processor before running sample
-file_path = r'D:\DocAI\Tally-Document-AI\data\GST\1.pdf'
-mime_type = "application/pdf" # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
+processor_id = "d5efc50f9221c006" # Create processor before running sample
+file_path = r'C:\Users\manish.g\Downloads\DocumentAI (2)\DocumentAI\InvoiceImages\97.jpeg'
+mime_type = "image/jpeg" # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
 # field_mask = "text,entities,pages.pageNumber"  # Optional. The fields to return in the Document object.
 # processor_version_id = "YOUR_PROCESSOR_VERSION_ID" # Optional. Processor version to use
 
